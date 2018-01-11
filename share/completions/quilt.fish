@@ -9,7 +9,7 @@ complete -c quilt -a annotate -r -d "Print an annotated listing of the specified
 complete -c quilt -a applied -r -d "Print a list of applied patches"
 complete -c quilt -a delete -r -d "Remove the specified or topmost patch from the series file"
 complete -c quilt -a diff -r -d "Produces a diff of the specified file(s) in the topmost  or  specified patch"
-complete -c quilt -a edit -r -d "Edit the specified file(s) in $EDITOR"
+complete -c quilt -a edit -r -d 'Edit the specified file(s) in \$EDITOR'
 complete -c quilt -a files -r -d "Print the list of files that the topmost or specified patch changes"
 complete -c quilt -a fold -r -d "Integrate the patch read  from  standard  input  into  the  topmost patch"
 complete -c quilt -a fork -r --no-file -d " Fork the topmost patch"
