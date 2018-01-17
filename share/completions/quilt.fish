@@ -1,7 +1,7 @@
 # completions for quilt version 0.46 or similiar
 complete -c quilt -s h -d "show help"
 complete -c quilt -l version -d "show version"
-complete -c quilt -l quiltrc -r --no-file -d "specify the file to Run Control file to use"
+complete -c quilt -l quiltrc -r --no-file -d "Set the configuration file to use"
 complete -c quilt -l trace -r --no-file -d "Runs the command in bash trace mode (-x). For internal debugging"
 
 complete -c quilt -a add -r -d "Add one or more files to the topmost or named patch"
