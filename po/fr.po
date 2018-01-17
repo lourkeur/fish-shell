@@ -49907,9 +49907,9 @@ msgid ""
 msgstr ""
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:10
-#, fuzzy, sh-format
+#, sh-format
 msgid "Edit the specified file(s) in $EDITOR"
-msgstr "Ouvrir le profil spécifié dans un éditeur"
+msgstr "Modifier le(s) fichier(s) spécifié(s) avec $EDITOR"
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:11
 msgid "Print the list of files that the topmost or specified patch changes"
