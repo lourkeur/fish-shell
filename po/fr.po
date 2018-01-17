@@ -86,7 +86,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.2.8POT-Creation-Date: 2006-07-10 13:44-0400\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-10 21:58+0100\n"
+"POT-Creation-Date: 2018-01-17 18:53+0100\n"
 "PO-Revision-Date: 2017-12-08 17:27+0100\n"
 "Last-Translator: David Guyot <david.guyot@europecamions-interactive.com>\n"
 "Language-Team: français <david.guyot@europecamions-interactive.com>\n"
@@ -49877,8 +49877,8 @@ msgstr "Afficher des erreurs"
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:3
 #, fuzzy
-msgid "specify the file to Run Control file to use"
-msgstr "Spécifier l'expiration de la cache"
+msgid "Set the configuration file to use"
+msgstr "Spécifier le fichier de configuration à utiliser"
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:4
 msgid "Runs the command in bash trace mode (-x). For internal debugging"
@@ -49903,12 +49903,12 @@ msgstr "Déplacer le fichier spécifier dans la ligne de commande"
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:9
 msgid ""
-"Produces a diff of the specified file(s) in the topmost  or  specified patch"
+"Produces a diff of the specified file(s) in the topmost or specified patch"
 msgstr ""
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:10
-#, fuzzy
-msgid "Edit the specified file(s) in /usr/bin/vim"
+#, fuzzy, sh-format
+msgid "Edit the specified file(s) in $EDITOR"
 msgstr "Ouvrir le profil spécifié dans un éditeur"
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:11
@@ -49916,17 +49916,17 @@ msgid "Print the list of files that the topmost or specified patch changes"
 msgstr ""
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:12
-msgid ""
-"Integrate the patch read  from  standard  input  into  the  topmost patch"
+msgid "Integrate the patch read from standard input into the topmost patch"
 msgstr ""
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:13
-msgid " Fork the topmost patch"
-msgstr ""
+#, fuzzy
+msgid "Fork the topmost patch"
+msgstr "Les dossiers de travail doivent correspondre"
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:14
 msgid ""
-"Generate  a  dot(1) directed graph showing the dependencies between applied "
+"Generate a dot(1) directed graph showing the dependencies between applied "
 "patches"
 msgstr ""
 
@@ -49937,8 +49937,9 @@ msgid ""
 msgstr ""
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:16
-msgid " Print or change the header of the topmost or specified patch"
-msgstr ""
+#, fuzzy
+msgid "Print or change the header of the topmost or specified patch"
+msgstr "Écrire le diagnostic dans le chemin spécifié"
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:17
 msgid "Import external patches"
@@ -49946,73 +49947,79 @@ msgstr ""
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:18
 msgid ""
-"Create  mail  messages  from all patches in the series file, and either "
-"store or send them"
+"Create mail messages from all patches in the series file, and either store "
+"or send them"
 msgstr ""
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:19
 msgid ""
-"Create a new patch with the specified file name, and  insert  it after the "
+"Create a new patch with the specified file name, and insert it after the "
 "topmost patch"
 msgstr ""
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:20
+#, fuzzy
 msgid ""
-"Print  the  name  of  the next patch after the specified or topmost patch in "
-"the series file"
-msgstr ""
+"Print the name of the next patch after the specified or topmost patch in the "
+"series file"
+msgstr "Déplacer le fichier spécifier dans la ligne de commande"
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:21
 msgid "Print the list of patches that modify the specified file"
 msgstr ""
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:22
+#, fuzzy
+msgid "Remove patch(es) from the stack of applied patches"
+msgstr "Appliquer les modifications au référentiel"
+
+#: /tmp/fish/implicit/share/completions/quilt.fish:23
 msgid ""
 "Print the name of the previous patch before the specified or topmost patch "
 "in the series file"
 msgstr ""
 
-#: /tmp/fish/implicit/share/completions/quilt.fish:23
+#: /tmp/fish/implicit/share/completions/quilt.fish:24
 msgid "Apply patch(es) from the series file"
 msgstr ""
 
-#: /tmp/fish/implicit/share/completions/quilt.fish:24
+#: /tmp/fish/implicit/share/completions/quilt.fish:25
 msgid "Refreshes the specified patch, or the topmost patch by default"
 msgstr ""
 
-#: /tmp/fish/implicit/share/completions/quilt.fish:25
+#: /tmp/fish/implicit/share/completions/quilt.fish:26
 #, fuzzy
 msgid "Remove one or more files from the topmost or named patch"
 msgstr "Appliquer les modifications au référentiel"
 
-#: /tmp/fish/implicit/share/completions/quilt.fish:26
+#: /tmp/fish/implicit/share/completions/quilt.fish:27
 msgid "Rename the topmost or named patch"
 msgstr ""
 
-#: /tmp/fish/implicit/share/completions/quilt.fish:27
+#: /tmp/fish/implicit/share/completions/quilt.fish:28
 msgid "Print the names of all patches in the series file"
 msgstr ""
 
-#: /tmp/fish/implicit/share/completions/quilt.fish:28
-msgid " Initializes a source tree from an rpm spec file or a quilt series file"
-msgstr ""
-
 #: /tmp/fish/implicit/share/completions/quilt.fish:29
-msgid " Take a snapshot of the current working state"
+msgid "Initializes a source tree from an rpm spec file or a quilt series file"
 msgstr ""
 
 #: /tmp/fish/implicit/share/completions/quilt.fish:30
+msgid "Take a snapshot of the current working state"
+msgstr ""
+
+#: /tmp/fish/implicit/share/completions/quilt.fish:31
 msgid ""
 "Print the name of the topmost patch on the current stack of applied patches"
 msgstr ""
 
-#: /tmp/fish/implicit/share/completions/quilt.fish:31
+#: /tmp/fish/implicit/share/completions/quilt.fish:32
 msgid ""
 "Print a list of patches that are not applied, or all patches that follow the "
 "specified patch in the series file"
 msgstr ""
 
-#: /tmp/fish/implicit/share/completions/quilt.fish:32
+#: /tmp/fish/implicit/share/completions/quilt.fish:33
 msgid ""
 "Upgrade the meta-data in a working tree from an old version of quilt to the "
 "current version"
@@ -64643,6 +64650,10 @@ msgstr ""
 #: /tmp/fish/implicit/share/functions/vared.fish:1
 msgid "Edit variable value"
 msgstr ""
+
+#, fuzzy
+#~ msgid "specify the file to Run Control file to use"
+#~ msgstr "Spécifier l'expiration de la cache"
 
 #, fuzzy
 #~ msgid "%ls: --array option requires a single variable name.\n"
